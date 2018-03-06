@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.extra-wrapping{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.common{
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+
+                      /*====    header start    ====*/
+
+header{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+.logo{
+    width: 30%;
+    float: left;
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-top: 40px;
+    color: #000000;
+    font-size: 25px;
+}
+
+.nav{
+    width: 60%;
+    float: right;
+    margin-top: 55px;
+}
+
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding-left: 77px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    text-transform: uppercase;
+    font-size: 18px;
+    
+}
+
+.nav ul li:hover a{
+     color: #000000;      
+}
+
+
+          /*====    header end    ====*/
+
+          
+            /*====    banner start    ====*/
+
+.banner-image{
+    width: 100%;
+}
+.banner-image img{
+    margin-top: 40px;
+}  
+
+
+            /*====    banner start    ====*/   
+         
+         /*====    description start    ====*/
+ 
+#description{
+    width: 100%;
+}
+
+.description-data{
+    margin-top: 100px;
+}
+
+
+
+.description-data h1{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.description-data p{
+    font-family: 'Playfair Display', serif;
+font-size: 14px;
+color: #626262;
+margin-top: 30px;
+}
+
+ #down{
+    margin-top: 50px;
+}
+#upper{
+    margin-top: 0px;
+}
+
+        /*====    description start    ====*/
+
+        /*====    gallery start    ====*/
+
+#gallery{
+    width: 100%;
+    overflow: hidden;
+}
+
+.photo-gallery{
+    margin-top: 40px;
+}
+
+.single-image{
+    width: 45%;
+    float: left;
+    padding: 60px 24px;
+}
+.image{
+    
+}
+.image img {
+   width: 100%;
+   transition: 1s;
+}
+
+.image:hover img {
+    transform: scale(1.1);
+}
+
+#p-gallery{
+    padding-top: 15px
+}
+
+.text{
+    
+}
+.text h1{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    padding-top: 15px;
+    font-size: 30px;
+}
+.text p{
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    padding-top: 30px;
+    line-height: 25px;
+}
+
+        /*====    gallery end    ====*/
+
+
+        /*====    signup start    ====*/
+
+#signup{
+    width: 100%;
+    background-color: #f0f0f0;
+    min-height: 290px;
+}
+
+#signup h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: center;
+    color: #333333;
+    padding-top: 80px;
+}
+.email{
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.signup-form{
+    width: 377px;
+    border-bottom: 1px solid black;
+    padding-bottom: 14px;
+    background: url(../images/send.png);
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-position: 98%;
+    margin-left: 350px;
+    margin-top: 25px;
+}
+
+        /*====    signup end    ====*/
+  
+ 
+        /*====    details start    ====*/
+#details {
+    min-height: 1300px;
+}
+
+.btn{
+    margin-left: 410px;
+    margin-top: 230px;
+}
+.btn button{
+    padding: 15px 30px;   
+    border: 1px solid #626262;
+    background-color: #ffffff;
+    font-family: 'Playfair Display', serif;
+}
+
+
+       /*====    details end    ====*/
+footer{
+    min-height: 100px;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.condition{
+    width: 45%; 
+    float: left;
+    margin-top: 40px;
+}
+
+.condition ul{
+    list-style: none;
+}
+.condition ul li{
+    float: left;
+}
+.condition ul li a {
+    text-decoration: none;
+    color: #202020;
+    padding: 10px 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+
+.icon{
+    width: 20%;
+    float: right;
+    margin-top: 40px;
+}
+
+.icon ul{
+    list-style: none;
+}
+.icon ul li{
+    float: left;
+}
+.icon ul li a {
+    text-decoration: none;
+    color: #202020;
+    padding: 10px 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+       /*====    footer start    ====*/
+
+
+
+
+       /*====    footer end   ====*/
+
